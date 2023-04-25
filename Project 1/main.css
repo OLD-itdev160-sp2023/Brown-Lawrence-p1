@@ -1,0 +1,94 @@
+/* the styles for the elements */ body {
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 100%;
+}
+
+a { font-weight: bold; } 
+a:link { color: #931420; } 
+a:visited { color: #f2972e;} 
+a:hover, a:focus { color: blue; }	
+
+ul { line-height: 1.5; } 
+li, p { font-size: 95%; color: #005f00 } 
+em { font-weight: bold; }
+
+
+/* the styles for the header */ 
+header img { float: left; } 
+header h1 {
+	font-size: 210%; 
+	color: #df0000; 
+	text-align: left;
+	text-shadow: 2px 2px 2px #007f00; 
+}
+
+h3 {
+	font-size: 110%; 
+	color: #ff0000; 
+	font-weight: 700; 
+	text-align: left;
+	text-shadow: 2px 2px 2px blue; 
+}
+
+h3~p{
+	font-size: 110%; 
+	font-style: italic; 
+	text-align: left;
+	text-decoration: underline;
+}
+
+p{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+header h4 {
+	font-size: 110%; 
+	color: #0000ff; 
+	text-align: left;
+	text-shadow: 2px 2px 2px black; 
+}
+
+/* the styles for the footer */ 
+	footer p {
+	font-size: 80%; 
+	text-align: right;
+	color: #ff0000;
+}
+
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+aside {
+    width: 25%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: 0.5rem;
+    color: #ff0000;
+    text-shadow: 0.5px 0.5px 0.5px #5f005f; 
+}
+
+aside > nav {
+    margin: 0.5rem;
+    font-style: normal;
+    color: #ff0000;
+    text-shadow: 0.5px 0.5px 0.5px #5f005f; 
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul li:before {
+    content: '✓    ';
+}
+
+ul li {
+    list-style-type: none;
+}
